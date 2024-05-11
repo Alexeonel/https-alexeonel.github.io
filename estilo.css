@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+main{
+    width: 75%;
+    margin: 10px auto;
+}
+#cabezera{
+    height: 120px;
+    margin: 20px;
+    border-bottom:5px solid orange;
+    border-top: 5px solid orange;
+    display: flex;
+    align-items: center;
+}
+#cabezera h1{
+    text-decoration: double;
+    color: rgb(228, 141, 20);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left:40px ;
+}
+#cabezera img{
+    width: 120px;
+}
+#menu{
+    height:50px;
+    margin:20px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    background-color: rgba(240, 143, 24, 0.732);
+}
+#menu a{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(8, 4, 2);
+}
+#menu a:hover{
+    margin-bottom: 10px;
+    font-size: larger;
+    padding: 5px;
+}
+#cuerpo{
+    height: 800px ;
+    margin: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.lateral{
+    width: auto;
+    height: 600px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.cuadro{
+    width: 80%;
+    height: 350px;
+    margin: 10px;
+}
+#cuerpo h2{
+    margin-left: 30px;
+    margin: 20px;
+    color: brown;
+    font-size: xx-large;
+}
+#cuerpo h3{
+    text-align: center;
+    font-size: x-large;
+    text-decoration:  underline orange;
+}
+#cuerpo img{
+    width: 50%;
+    height: 40%;
+    float: left;
+}
+#cuerpo p{
+    text-align:justify;
+    font-size: 12pt;
+}
+#cuerpo a{
+    color: red;
+}
+#pie{
+    height: 100px;
+    border: 1px solid orange;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px;
+}
+#derechos{
+    width: 50%;
+    height: 100%;
+}
+#pie img{
+    width: 50px;
+}
+#pie img:hover{
+    margin-bottom: 10px;
+}
+#pie mark{
+    background-color: blue;
+    color: azure;
+    text-decoration: line;
+}
